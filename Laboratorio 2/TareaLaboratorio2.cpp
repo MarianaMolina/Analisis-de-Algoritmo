@@ -29,7 +29,23 @@ class Lista{
 	}
 	
 	void Cambiar(int v1, int v2 ){
+		Nodo *temp1 = inicio;
+		Nodo *temp2 = inicio;
 		
+		if(!inicio){
+			cout<< "Lista vacia"<<endl;
+		}
+		
+		else{
+			while(temp){
+				if(temp1->dato == v1){
+					int a = temp1->dato;
+				}
+				if(temp2->dato == v2){
+					int b = temp2->dato;
+				}
+			}
+		}
 	}
 	
 	
@@ -44,7 +60,7 @@ int main (void){
 	lista1.AgregarDato(4);
 	lista1.AgregarDato(5);
 	
-	//lista1.Cambiar(2,3);
+	lista1.Cambiar(2,3);
 	
 	
 	
